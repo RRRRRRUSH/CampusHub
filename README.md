@@ -168,6 +168,6 @@ server {
 
 ## 📜 License
 
-[MIT](LICENSE) © 2026 RongYu
+[MIT](LICENSE) © 2026
 
 **CampusHub · 高校活动竞赛管理平台**

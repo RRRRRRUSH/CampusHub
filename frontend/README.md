@@ -227,6 +227,6 @@ server {
 
 <div align="center">
 
-**© 2026 荣峪 (RongYu)** · Made with ❤️ for campus life
+**© 2026**
 
 </div>

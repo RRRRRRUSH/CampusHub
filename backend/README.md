@@ -213,6 +213,6 @@ java -jar /opt/campus/campus-server-0.0.1-SNAPSHOT.jar \
 
 <div align="center">
 
-**© 2026 荣峪 (RongYu)** · Made with ❤️ for campus life
+**© 2026**
 
 </div>
