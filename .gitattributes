@@ -1,0 +1,10 @@
+# GitHub 语言统计配置：全栈项目以前端为主会被误判为前端项目
+# 这里让前端代码不计入语言检测，使仓库主体语言正确反映后端（Java）
+frontend/** linguist-detectable=false
+*.vue linguist-detectable=false
+*.ts linguist-detectable=false
+*.tsx linguist-detectable=false
+*.js linguist-detectable=false
+*.jsx linguist-detectable=false
+*.css linguist-detectable=false
+*.html linguist-detectable=false
