@@ -1,0 +1,22 @@
+# ===== Node / 前端 =====
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# ===== Java / 后端 =====
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.iml
+
+# ===== 环境与日志 =====
+.env*
+!.env.example
+*.log
+.DS_Store
