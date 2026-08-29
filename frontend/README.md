@@ -4,7 +4,7 @@
 
 **Campus Activity & Competition Management Platform**
 
-> 辽宁大学毕业设计作品 —— 集「活动管理 · 竞赛管理 · 学分认定」于一体的高校双端管理系统
+> 集「活动管理 · 竞赛管理 · 学分认定」于一体的高校双端管理系统
 >
 > A dual-role campus platform that keeps every activity traceable and every competition fairly certified.
 
@@ -227,6 +227,6 @@ server {
 
 <div align="center">
 
-**© 2026 荣峪 (RongYu) — 辽宁大学毕业设计作品** · Made with ❤️ for campus life
+**© 2026 荣峪 (RongYu)** · Made with ❤️ for campus life
 
 </div>

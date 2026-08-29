@@ -4,7 +4,7 @@
 
 **CampusHub REST API — Spring Boot · MyBatis · MySQL · JWT**
 
-> 辽宁大学毕业设计作品 —— CampusHub 平台的服务端，为前端提供活动、竞赛、审核、用户管理的一站式 API。
+> CampusHub 平台的服务端，为前端提供活动、竞赛、审核、用户管理的一站式 API。
 >
 > The server backbone of CampusHub: activity & competition management, credit certification and user administration.
 
@@ -107,8 +107,8 @@ CREATE DATABASE IF NOT EXISTS campus_db
 | `DB_HOST` | `localhost` | MySQL 主机地址 |
 | `DB_PORT` | `3306` | MySQL 端口 |
 | `DB_NAME` | `campus_db` | 数据库名 |
-| `DB_PASSWORD` | `1234` | 数据库密码（**生产环境务必修改**） |
-| `CAMPUS_UPLOAD_PATH` | `D:/campus-uploads/` | 文件上传目录（Linux 建议 `/data/campus-uploads/`） |
+| `DB_PASSWORD` | `1234` | 数据库密码 |
+| `CAMPUS_UPLOAD_PATH` | `D:/campus-uploads/` | 文件上传目录 |
 
 ### 3. 启动服务
 
@@ -201,7 +201,7 @@ java -jar /opt/campus/campus-server-0.0.1-SNAPSHOT.jar \
 # Environment="DB_PASSWORD=xxx" Environment="CAMPUS_UPLOAD_PATH=/data/campus-uploads/"
 ```
 
-> ⚠️ **部署提醒**：默认上传路径为 `D:/campus-uploads/`（Windows 开发环境），部署到 Linux 时**务必通过 `CAMPUS_UPLOAD_PATH` 环境变量修改**为 Linux 路径（如 `/data/campus-uploads/`），并确保目录存在且可写。
+> 默认上传路径为 `D:/campus-uploads/`，可通过 `CAMPUS_UPLOAD_PATH` 环境变量调整。
 
 ---
 
@@ -213,6 +213,6 @@ java -jar /opt/campus/campus-server-0.0.1-SNAPSHOT.jar \
 
 <div align="center">
 
-**© 2026 荣峪 (RongYu) — 辽宁大学毕业设计作品** · Made with ❤️ for campus life
+**© 2026 荣峪 (RongYu)** · Made with ❤️ for campus life
 
 </div>

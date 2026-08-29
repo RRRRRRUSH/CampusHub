@@ -108,8 +108,8 @@ npm run dev
 | `DB_HOST` | `localhost` | MySQL 地址 |
 | `DB_PORT` | `3306` | MySQL 端口 |
 | `DB_NAME` | `campus_db` | 数据库名 |
-| `DB_PASSWORD` | `1234` | 数据库密码（**生产环境务必修改**） |
-| `CAMPUS_UPLOAD_PATH` | `D:/campus-uploads/` | 文件上传目录（Linux 请改为 `/opt/campus-uploads/` 之类） |
+| `DB_PASSWORD` | `1234` | 数据库密码 |
+| `CAMPUS_UPLOAD_PATH` | `D:/campus-uploads/` | 文件上传目录 |
 
 ## 📁 项目结构
 
@@ -164,10 +164,10 @@ server {
 }
 ```
 
-> 💡 生产环境请务必修改 `DB_PASSWORD` 环境变量，并将上传路径指向服务器磁盘目录。
+> 默认上传路径为 `D:/campus-uploads/`，可通过 `CAMPUS_UPLOAD_PATH` 环境变量调整。
 
 ## 📜 License
 
 [MIT](LICENSE) © 2026 RongYu
 
-**CampusHub · 高校活动竞赛管理平台 — 毕业设计作品**
+**CampusHub · 高校活动竞赛管理平台**
